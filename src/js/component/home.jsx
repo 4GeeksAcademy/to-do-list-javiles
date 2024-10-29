@@ -12,7 +12,7 @@ const Home = () => {
                 <ul>
                     {/* Show this paragraph above the input when the todos list is empty */}
                     {todos.length === 0 && (
-                        <p className="text-muted mt-4">No hay items en tu lista. Comienza agregado uno!</p>
+                        <p className="text-muted mt-4">No hay items en tu lista. Comienza agregando uno!</p>
                     )}
                     <li>
                         <input
